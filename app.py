@@ -1,12 +1,9 @@
 import subprocess
 
 # Jalankan perintah pip install secara langsung dari dalam skrip Python
-subprocess.check_call(["pip", "install", "scikit-learn"])
-
-import sklearn
+subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
 import pickle
 import streamlit as st
-import pickle
 import numpy as np
 
 # Dictionary untuk mapping tipe ke nama
