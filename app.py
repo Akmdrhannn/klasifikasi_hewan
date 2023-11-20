@@ -1,3 +1,9 @@
+import subprocess
+
+# Jalankan perintah pip install secara langsung dari dalam skrip Python
+subprocess.check_call(["pip", "install", "scikit-learn"])
+
+
 import pickle
 import streamlit as st
 import pickle
